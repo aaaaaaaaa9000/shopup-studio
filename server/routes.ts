@@ -31,8 +31,8 @@ api.use(rateLimit);
 
 // ============ Poses + products: one photo (or a group) in a new scene ============
 
-type Quality = 'standard' | '2K' | '4K';
-const ALLOWED_QUALITY = new Set<Quality>(['standard', '2K', '4K']);
+type Quality = 'standard' | '2K';
+const ALLOWED_QUALITY = new Set<Quality>(['standard', '2K']);
 const ALLOWED_ASPECT = new Set(['1:1', '4:5', '3:4', '9:16', '16:9']);
 
 function parseQuality(value: unknown): Quality | null {

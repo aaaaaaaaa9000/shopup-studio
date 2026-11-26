@@ -8,7 +8,7 @@ One app for all of ShopUp's image tools. Each section was its own app before; th
 | غرفة القياس | Fashion-Try-On | Puts garments on a person or a mannequin, with pose, color and background edits |
 | التلوين | Coloring | Recolors the main garment (the pose step moved to the poses section) |
 | الوضعيات | AI-powered-poses | New pose or scene for a photo, including "pose only" presets |
-| صور المنتجات | Product-Group-Shot | Studio product photos, one per product or a group shot, up to 4K |
+| صور المنتجات | Product-Group-Shot | Studio product photos, one per product or a group shot, up to 2K |
 | تحويل لـ JPG | AVIF-and-WebP-to-JPG-Converter- | Converts any image to JPG in the browser (nothing is uploaded) |
 
 ## The image tray

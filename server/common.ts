@@ -4,7 +4,7 @@ import type { NextFunction, Request, Response } from 'express';
 import { GoogleGenAI } from '@google/genai';
 
 export const IMAGE_MODEL = process.env.GEMINI_IMAGE_MODEL || 'gemini-3.1-flash-lite-image';
-/** Used for 2K / 4K results. */
+/** Used for 2K results. */
 export const HQ_IMAGE_MODEL = process.env.GEMINI_HQ_IMAGE_MODEL || 'gemini-3.1-flash-image';
 /** Describes a style reference image (poses and products). */
 export const STYLE_MODEL = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
