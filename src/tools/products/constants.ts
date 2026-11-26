@@ -33,7 +33,6 @@ export const ASPECT_RATIOS: { value: AspectRatio; label: string; hint: string }[
 export const QUALITIES: { value: Quality; label: string; hint: string }[] = [
   { value: 'standard', label: 'عادية', hint: 'الأسرع والأرخص' },
   { value: '2K', label: 'عالية', hint: 'أبطأ وأغلى' },
-  { value: '4K', label: 'فائقة', hint: 'الأبطأ والأغلى' },
 ];
 
 /** Most products the model handles well in one group shot (the server enforces the same limit). */

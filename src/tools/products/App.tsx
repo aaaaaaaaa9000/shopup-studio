@@ -346,7 +346,7 @@ function App() {
             />
             {options.quality !== 'standard' && (
               <p className="mt-2 text-xs text-ink-muted">
-                الجودة الأعلى بتستعمل موديل أقوى، والصورة بتاخد حوالي {options.quality === '4K' ? '20' : '12'} ثانية بدل 3.
+                الجودة الأعلى بتستعمل موديل أقوى، والصورة بتاخد حوالي 12 ثانية بدل 3.
               </p>
             )}
           </section>
